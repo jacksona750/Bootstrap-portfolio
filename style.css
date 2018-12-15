@@ -1,0 +1,143 @@
+body {
+    background-color: #ffffff;   
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-image: url("images/circuit.png");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+    border-bottom: thin solid #cccccc;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.about {
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 75px;
+    border: 1px solid #dddddd;
+    padding: 5px 20px;
+}
+
+h1 {
+    float: left;  
+    background-color: #4aaaa5;
+    color: #ffffff;
+    border-color: #cccccc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 0px;
+  }
+
+  .navbar {
+    padding: 0px;
+    justify-content: space-around;
+  }
+
+  #navbarNav {
+    float: right;
+  }
+
+  .nav-item {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+  }
+  
+  h2 {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 2px solid #cccccc;
+    padding: 15px 0px;
+
+  }
+
+  p {
+    color: #777777;
+}
+
+  #bio-image {
+      width: 175px;
+      height: 175px;
+  }
+
+  .portfolio {
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 75px;
+    border: 1px solid #dddddd;
+    padding: 5px 20px;
+}
+
+.work {
+    position: relative;
+    float: left;
+    width: 274px;
+    margin: 20px 0 25px;
+    overflow: auto;
+  }
+  
+  .work:nth-child(even) {
+    margin-right: 40px;
+  }
+  
+  .work img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+  }
+  
+  .work h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+  }
+
+  form {
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 960px;
+    margin-top: 50px;
+    margin-bottom: 75px;
+    border: 1px solid #dddddd;
+    padding: 5px 20px;
+}
+
+  button {
+    background-color: #4aaaa5;
+    color: #ffffff;
+  }
+
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    border-top: 8px solid #4aaaa5;
+    background-color: #666666;
+    color: #ffffff;
+    padding-top: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+}
